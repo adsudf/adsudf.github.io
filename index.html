@@ -94,12 +94,20 @@
       </a>
     </div>
     <div>
-        <img align="center" src="docs/Processo%20de%20vendas.png" height="auto" width="100%">
-
+        <img align="center" src="docs/Processo%20de%20vendas.png" height="auto" width="100%" usemap="#mapa">
+        <map name="mapa">
+              <area shape="rect" coords="1026,1367,1359,1551" href="#">
+        </map>
     </div>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="js/jquery-3.2.1.slim.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/imageMapResizer.min.js"></script>
+    <script type="text/javascript">
+
+		$('map').imageMapResize();
+
+	  </script>
   </body>
 </html>
